@@ -26,6 +26,7 @@ jobs:
       run: yarn install --frozen-lockfile
     - name: Build
       run: yarn build
+    - uses: ./
     - name: Test
       run: yarn test
     - uses: ./
